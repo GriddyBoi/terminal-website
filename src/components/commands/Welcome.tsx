@@ -13,18 +13,9 @@ const Welcome: React.FC = () => {
   return (
     <HeroContainer data-testid="welcome">
       <div className="info-section">
-        <PreName>
-          {`  ______     _     __    __     _          ____                 
-  / ____/____(_)___/ /___/ /_  _( )_____   / __ \____ _____ ____ 
- / / __/ ___/ / __  / __  / / / /// ___/  / /_/ / __ `/ __ `/ _ \
-/ /_/ / /  / / /_/ / /_/ / /_/ / (__  )  / ____/ /_/ / /_/ /  __/
-\____/_/  /_/\__,_/\__,_/\__, / /____/  /_/    \__,_/\__, /\___/ 
-                        /____/                      /____/       `}
-        </PreName>
+        <PreName>{``}</PreName>
         <PreWrapper>
-          <PreNameMobile>
-            {` `}
-          </PreNameMobile>
+          <PreNameMobile>{` `}</PreNameMobile>
         </PreWrapper>
         <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
         <Seperator>----</Seperator>
